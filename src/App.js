@@ -1,9 +1,9 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import AddTaskForm from './components/AddTaskForm';
+// import AddTaskForm from './components/AddTaskForm';
 import TaskRow from './components/TaskRow';
-import { Router, Link, Route} from 'react-router-dom';
+// import { Router, Link, Route} from 'react-router-dom';
 import axios from 'axios';
 import RegisterationForm from './components/RegisterationForm';
 
@@ -70,10 +70,10 @@ class App extends React.Component {
     
   // }
   render() {
-    let existingTasks = this.state.tasks.map((task) => {
-      console.log(task)
-      return <TaskRow task={task}/>
-    })
+    // let existingTasks = this.state.tasks.map((task) => {
+    //   console.log(task)
+    //   return <TaskRow task={task}/>
+    // })
     let doneTasks = this.state.tasks.filter((task) => {
       return(task.status === 'done')
     })

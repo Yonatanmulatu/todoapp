@@ -1,6 +1,6 @@
 import React from 'react';
-import { register } from '../serviceWorker';
-import { render } from '@testing-library/react';
+// import { register } from '../serviceWorker';
+// import { render } from '@testing-library/react';
 
 
 class RegisterationForm extends React.Component {
