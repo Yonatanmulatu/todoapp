@@ -11,7 +11,7 @@ class RegisterationForm extends React.Component {
         confirmPassword:'',
     }
 
-    inputChangeHandler = () => {
+    inputChangeHandler = (e) => {
         this.setState({
             [e.target.name]: e.target.value
         })
